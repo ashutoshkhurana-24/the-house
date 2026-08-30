@@ -41,7 +41,7 @@ let config = readConfig();
 const HOUSE_NAME = process.env.HOUSE_NAME || config.house_name || 'The House';
 /* The name the home-screen icon sits under, where there is room for about
    twelve characters. Taken from the first word of the house's name unless the
-   install says otherwise — "Pravita's Apartment" wants to read "Pravita's". */
+   install says otherwise, since a long name would be clipped. */
 const HOUSE_SHORT = config.house_short || HOUSE_NAME.split(/[\s]+/)[0];
 
 const HUB_IP = process.env.HUB_IP || config.hub_ip || '192.168.1.3';
