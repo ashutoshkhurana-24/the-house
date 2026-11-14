@@ -153,7 +153,7 @@ scored against the address each should resolve to. The nearest rival was 27%
 cheaper and consistently misread Hinglish numerals (`aadhe` as "down" rather than
 50), which is the competence this house actually needs.
 
-[**How the house listens →**](docs/how-the-house-listens.html) is the whole thing
+[**How the house listens →**](https://ashutoshkhurana-24.github.io/the-house/how-the-house-listens.html) is the whole thing
 written up end to end — every step above, why each is shaped the way it is, and
 what each one measured.
 
